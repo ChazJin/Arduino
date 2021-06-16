@@ -4,58 +4,70 @@
       "name": "GD32",
       "websiteURL": "https://www.gigadevice.com/",
       "maintainer": "GigaDevice",
-      "email": "",
+      "email": "535094204@qq.com",
       "help": {
         "online": "https://www.gigadevice.com/"
       },
       "platforms": [
-         {
-          "name": "",
+        {
+          "name": "GD32 MCU boards",
           "architecture": "gd32",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "",
-          "archiveFileName": "",
-          "checksum": "",
-          "size": "",
+          "url": "https://github.com/stm32duino/Arduino_Core_STM32/releases/download/2.0.0/STM32-2.0.0.tar.bz2",
+          "archiveFileName": "STM32-2.0.0.tar.bz2",
+          "checksum": "SHA-256:31e7a98afdc595335acbd111b39563350eb63bd0bcd005aebbe6fe1f8bad26fe",
+          "size": "38496810",
           "boards": [
-            {
-              "name": "GD32F307VG MBED"
-            },
-            {
-              "name": "GD32F307VC EVAL"
-            },
-            {
-              "name": "GD32F303ZE EVAL"
-            }
+            {"name": "GD32F307VG MBED"},
+            {"name": "GD32F307VC EVAL"},
+            {"name": "GD32F303ZE EVAL"}
           ],
           "toolsDependencies": [
             {
-              "version": "9.2.1-1.1",
+              "packager": "GD32",
               "name": "xpack-arm-none-eabi-gcc",
-              "packager": "GD32"
-          },
-          {
-              "version": "1.0.0",
+              "version": "9.2.1-1.1"
+            },
+            {
+              "packager": "GD32",
               "name": "gd32tools",
-              "packager": "GD32"
-          }
+              "version": "1.0.0"
+            }
           ]
         }
       ],
-      "tools": {
-        "name": "gd32tools",
-        "version": "1.0.0",
-        "systems": [
+      "tools": [
+        {
+          "name": "xpack-arm-none-eabi-gcc",
+          "version": "9.2.1-1.1",
+          "systems":
+          [
             {
-                "checksum": "",
-                "url": "",
-                "archiveFileName": "",
-                "host": "i686-mingw32",
-                "size": ""
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "checksum": "SHA-256:7432cfff045dc421d2ba177c3777ec1e82d4febe5f5f51fb2e90ff07d27cd466",
+              "size": "148593506"
             }
-        ]
-      }
+          ]
+        },
+        {
+          "name": "gd32tools",
+          "version": "1.0.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/2.0.0/STM32Tools-2.0.0-windows.tar.bz2",
+              "archiveFileName": "STM32Tools-2.0.0-windows.tar.bz2",
+              "checksum": "SHA-256:6316ffd1667344952bc5e16ff60783f9b4211d1eb54fc0d0c28e836b1490b717",
+              "size": "2486087"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
+
