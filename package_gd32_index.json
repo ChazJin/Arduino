@@ -43,21 +43,7 @@
           ]
         }
       ],
-      "tools": [
-	  {
-        "name": "gd32tools",
-        "version": "1.0.0",
-        "systems": [
-            {
-                "checksum": "",
-                "url": "",
-                "archiveFileName": "",
-                "host": "i686-mingw32",
-                "size": ""
-            }
-        ]
-		}
-      ]
+      "tools": []
     }
   ]
 }
